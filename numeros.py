@@ -6,11 +6,8 @@ start_time = time.time()
 
 # Codigo para generar un archivo con numeros del 1 al 100,000
 
-#file_path = '/home/ec2-user/numeros.txt'  Cambia esto segun la estructura de tu directorio
 
-file_path = '/app/resultado.txt'
-
-with open(file_path, 'w') as file:
+with open('/app/resultado.txt', 'w') as file:
     for i in range(1, 100001):
         file.write(str(i) + '\n')
 
