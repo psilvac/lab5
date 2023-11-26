@@ -4,7 +4,7 @@ import time
 inicio_tiempo = time.time()
 
 with open('numeros.txt', 'w') as archivo:
-    for numero in range(1, 10000001):
+    for numero in range(1, 100000001):
         archivo.write(str(numero) + '\n')
 
 # Obten el tiempo de finalizacion
